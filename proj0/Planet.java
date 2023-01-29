@@ -5,7 +5,7 @@ public class Planet {
     public double yyVel;
     public double mass;    //质量
     public String imgFileName;  //与描绘身体的图像对应的文件的名称
-    public static double G = 6.67e-11;
+    public static final double G = 6.67e-11;
 
 
     public Planet(double xP, double yP, double xV,
