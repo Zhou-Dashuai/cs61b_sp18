@@ -7,6 +7,7 @@ public class Planet {
     public String imgFileName;  //与描绘身体的图像对应的文件的名称
     public static double G = 6.67e-11;
 
+
     public Planet(double xP, double yP, double xV,
                   double yV, double m, String img) {
         xxPos = xP;
