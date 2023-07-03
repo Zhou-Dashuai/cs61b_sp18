@@ -29,6 +29,8 @@ public class NBody {
         double radius = NBody.readRadius(filename);
         Planet[] planets = NBody.readPlanets(filename);
 
+        StdAudio.play("audio/2001.mid");
+
         // draw the background
         StdDraw.setScale(-radius, radius);
         StdDraw.clear();
